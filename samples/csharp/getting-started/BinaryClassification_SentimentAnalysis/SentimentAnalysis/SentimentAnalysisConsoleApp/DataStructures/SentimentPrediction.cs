@@ -15,5 +15,8 @@ namespace SentimentAnalysisConsoleApp.DataStructures
         public float Probability { get; set; }
 
         public float Score { get; set; }
+        public float[] Features { get; set; }
+            public string[] OutputTokens { get; set; }
+
     }
 }
